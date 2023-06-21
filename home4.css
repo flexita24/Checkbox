@@ -1,0 +1,152 @@
+.custom-switch{
+    display: block;
+    margin: 5rem 0; 
+   
+}
+.custom-switch label{
+    width: 95px;
+    height: 90px;
+    display: inline-block;
+    background-color: grey;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+    border: 1px solid grey;
+    transition: all 0.2s linear;
+}
+.custom-switch label span{
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -25.5px;
+    margin-left: 2px;
+    border: 1px solid white;  
+    transition: all 0.2s ease-in-out;
+}
+.custom-switch input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: -26px;
+    background-color: white;
+border: 1px solid white;   
+}
+.custom-switch input{
+    display: none; 
+       
+}
+.custom-switch input[type=checkbox]:checked +label {
+    background: linear-gradient(20deg,rgb(255, 98, 0),rgb(255, 170, 0));
+border: 1px solid orange;
+ }
+.he{
+    margin-top: -50px;
+    margin-left: 20px;
+    color: white;
+}
+.heart{
+    background-color: white;
+}
+
+.custom2-switch2{
+    display: block;
+    margin: 5rem 0; 
+    position: absolute;
+    top: 0px;
+    left: 150px;
+   
+}
+.custom2-switch2 label{
+    width: 95px;
+    height: 90px;
+    display: inline-block;
+    background-color: grey;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+    border: 1px solid grey;
+    transition: all 0.2s linear;
+}
+.custom2-switch2 label span{
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -25.5px;
+    margin-left: 2px;
+    border: 1px solid white;  
+    transition: all 0.2s ease-in-out;
+}
+.custom2-switch2 input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: -26px;
+    background-color: white;
+border: 1px solid white;   
+}
+.custom2-switch2 input{
+    display: none; 
+       
+}
+.custom2-switch2 input[type=checkbox]:checked +label {
+    background: linear-gradient(20deg,rgb(255, 98, 0),rgb(255, 170, 0));
+border: 1px solid orange;
+ }
+.he2{
+    margin-top: -50px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+
+
+.custom3-switch3{
+    display: block;
+    margin: 5rem 0; 
+    position: absolute;
+    top: 0px;
+    left: 290px;
+}
+.custom3-switch3 label{
+    width: 95px;
+    height: 90px;
+    display: inline-block;
+    background-color: grey;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+    border: 1px solid grey;
+    transition: all 0.2s linear;
+}
+.custom3-switch3 label span{
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -25.5px;
+    margin-left: 2px;
+    border: 1px solid white;  
+    transition: all 0.2s ease-in-out;
+}
+.custom3-switch3 input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: -26px;
+    background-color: white;
+border: 1px solid white;   
+}
+.custom3-switch3 input{
+    display: none; 
+       
+}
+.custom3-switch3 input[type=checkbox]:checked +label {
+    background: linear-gradient(20deg,rgb(255, 98, 0),rgb(255, 170, 0));
+border: 1px solid orange;
+ }
+.he3{
+    margin-top: -50px;
+    margin-left: 20px;
+    color: white;
+}

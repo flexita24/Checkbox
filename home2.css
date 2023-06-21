@@ -1,0 +1,641 @@
+.custom-switch{
+    display: block;
+    margin: 5rem 0; 
+}
+.custom-switch label{
+    width: 95px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.custom-switch label span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -25.5px;
+    margin-left: 2px;
+    border: 1px solid blue;  
+    transition: all 0.4s ease-in-out;
+}
+.custom-switch input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: -26px;
+    background-color: blue;
+border: 1px solid blue;   
+}
+.custom-switch input{
+    display: none;    
+}
+.custom-switch input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box2-swit{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: -7px;
+    left: 120px;
+}
+.box2-swit label{
+    width: 75px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box2-swit label span{
+    display: block;
+    width: 35px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -18.5px; 
+    margin-left: 2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box2-swit input[type=checkbox]:checked +label span{
+    margin-left: 37.5px;
+margin-top: -20px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box2-swit input{
+    display: none;    
+}
+.box2-swit input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box3-swit2{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 1px;
+    left: 210px;
+}
+.box3-swit2 label{
+    width: 65px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box3-swit2 label span{
+    display: block;
+    width: 25px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -18.5px; 
+    margin-left: 2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box3-swit2 input[type=checkbox]:checked +label span{
+    margin-left: 37.5px;
+margin-top: -20px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box3-swit2 input{
+    display: none;    
+}
+.box3-swit2 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box4-swit3{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 4px;
+    left: 290px;
+}
+.box4-swit3 label{
+    width: 55px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box4-swit3 label span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -13.5px; 
+    margin-left:2px;
+    border: 1px solid blue; 
+    transition: all 0.4s ease-in-out;
+}
+.box4-swit3 input[type=checkbox]:checked +label span{
+    margin-left: 33.5px;
+margin-top: -15px;background-color: blue;
+border: 1px solid blue;   
+}
+.box4-swit3 input{
+    display: none;    
+}
+.box4-swit3 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box5-swit4{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 9px;
+    left: 355px;
+}
+.box5-swit4 label{
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box5-swit4 label span{
+    display: block;
+    width: 16px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin-top: -10px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box5-swit4 input[type=checkbox]:checked +label span{
+    margin-left: 20.5px;
+margin-top: -10px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box5-swit4 input{
+    display: none;    
+}
+.box5-swit4 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box6-swit5{
+    display: block;
+    margin: 6rem 0;   
+}
+.box6-swit5 label{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 30px;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box6-swit5 label span{
+    display: block;
+    width: 46px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 3px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box6-swit5 input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: 3px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box6-swit5 input{
+    display: none;    
+}
+.box6-swit5 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; }
+.box7-swit7{
+    display: block;
+    margin: 6rem 0; 
+   position: absolute;
+   left: 130px;
+   top: 140px;
+}
+.box7-swit7 label{
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 30px;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box7-swit7 label span{
+    display: block;
+    width: 36px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 3px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box7-swit7 input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: 3px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box7-swit7 input{
+    display: none;    
+}
+.box7-swit7 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; }
+.box8-swit8{
+    display: block;
+    margin: 6rem 0; 
+   position: absolute;
+   left: 230px;
+   top: 150px;
+}
+.box8-swit8 label{
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 30px;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box8-swit8 label span{
+    display: block;
+    width: 26px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 3px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box8-swit8 input[type=checkbox]:checked +label span{
+    margin-left: 40.5px;
+margin-top: 3px;background-color: blue;
+border: 1px solid blue;   
+}
+.box8-swit8 input{
+    display: none;    
+}
+.box8-swit8 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; }
+.box9-swit9{
+    display: block;
+    margin: 6rem 0; 
+   position: absolute;
+   left: 310px;
+   top: 155px;
+}
+.box9-swit9 label{
+    width: 55px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 30px;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box9-swit9 label span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 1px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box9-swit9 input[type=checkbox]:checked +label span{
+    margin-left: 30.5px;
+margin-top: 2px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box9-swit9 input{
+    display: none;    
+}
+.box9-swit9 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; }
+.box10-swit10{
+    display: block;
+    margin: 6rem 0; 
+   position: absolute;
+   left: 380px;
+   top: 160px;
+}
+.box10-swit10 label{
+    width: 35px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 30px;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box10-swit10 label span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-top: 1px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box10-swit10 input[type=checkbox]:checked +label span{
+    margin-left: 18.5px;
+margin-top: 1px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box10-swit10 input{
+    display: none;    
+}
+.box10-swit10 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; }
+
+.custom1-switch1{
+    display: block;
+    margin: 5rem 0; 
+}
+.custom1-switch1 label{
+    width: 95px;
+    height: 50px;
+    display: inline-block;
+
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 25px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.custom1-switch1 label span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-top: -25.5px;
+    margin-left: 2px;
+    border: 1px solid blue;  
+    transition: all 0.4s ease-in-out;
+}
+.custom1-switch1 input[type=checkbox]:checked +label span{
+    margin-left: 50.5px;
+margin-top: -26px;
+    background-color: blue;
+border: 1px solid blue;   
+}
+.custom1-switch1 input{
+    display: none;    
+}
+.custom1-switch1 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box11-swit11{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 293px;
+    left: 120px;
+}
+.box11-swit11 label{
+    width: 75px;
+    height: 40px;
+    display: inline-block;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box11-swit11 label span{
+    display: block;
+    width: 35px;
+    height: 32px;
+    background-color: #fff;
+    margin-top: -18.5px; 
+    margin-left: 2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box11-swit11 input[type=checkbox]:checked +label span{
+    margin-left: 37.5px;
+margin-top: -20px;background-color: blue;
+border: 1px solid blue;   
+}
+.box11-swit11 input{
+    display: none;    
+}
+.box11-swit11 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box12-swit12{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 302px;
+    left: 210px;
+}
+.box12-swit12 label{
+    width: 65px;
+    height: 30px;
+    display: inline-block;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box12-swit12 label span{
+    display: block;
+    width: 25px;
+    height: 22px;
+    background-color: #fff;
+    margin-top: -18.5px; 
+    margin-left: 2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box12-swit12 input[type=checkbox]:checked +label span{
+    margin-left: 37.5px;
+margin-top: -20px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box12-swit12 input{
+    display: none;    
+}
+.box12-swit12 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+
+.box13-swit13{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 305px;
+    left: 290px;
+}
+.box13-swit13 label{
+    width: 55px;
+    height: 25px;
+    display: inline-block;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box13-swit13 label span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    margin-top: -13.5px; 
+    margin-left:2px;
+    border: 1px solid blue; 
+    transition: all 0.4s ease-in-out;
+}
+.box13-swit13 input[type=checkbox]:checked +label span{
+    margin-left: 33.5px;
+margin-top: -15px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box13-swit13 input{
+    display: none;    
+}
+.box13-swit13 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; } 
+.box14-swit14{
+    display: block;
+    margin: 6rem 0; 
+    position: absolute;
+    top: 310px;
+    left: 355px;
+}
+.box14-swit14 label{
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    background-color: blue;
+    cursor:pointer;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+border: 1px solid blue;
+    transition: all 0.4s linear;
+}
+.box14-swit14 label span{
+    display: block;
+    width: 16px;
+    height: 14px;
+    background-color: #fff;
+    margin-top: -10px; 
+    margin-left:2px; 
+    border: 1px solid blue;
+    transition: all 0.4s ease-in-out;
+}
+.box14-swit14 input[type=checkbox]:checked +label span{
+    margin-left: 20.5px;
+margin-top: -10px;
+
+    background-color: blue;
+border: 1px solid blue;   
+}
+.box14-swit14 input{
+    display: none;    
+}
+.box14-swit14 input[type=checkbox]:checked +label {
+    background-color: white;
+border: 1px solid blue;
+color: blue; 
+}
